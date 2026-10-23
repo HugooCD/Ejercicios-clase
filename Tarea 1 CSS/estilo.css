@@ -1,0 +1,22 @@
+body {
+  color: #000;
+}
+
+h1 {
+  color: #00f;
+}
+
+h2 {
+  margin: 8px 0;
+  background-color: #000;
+  color: #fff;
+}
+
+p {
+  margin: 8px 0;
+}
+
+#final {
+  background-color: gray;
+  margin: 0;
+} 
