@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: Arial-narrow, sans-serif;
+    color: maroon;
+    letter-spacing: 5px;
+}
+
+h2 {
+    color: mediumseagreen;
+}
+
+h2::after {
+    content: " !!!";
+}
+
+p::first-line {
+    color: #444432;
+    font-style: italic;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-top: 5px;
+    padding: 3px;
+}
+
+li>a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: seagreen;
+    text-decoration: underline;
+}
+
+li:nth-child(even) {
+    background-color: lightcoral;
+}
+
+li:nth-child(odd) {
+    background-color: papayawhip;
+}
