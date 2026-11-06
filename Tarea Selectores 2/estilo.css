@@ -1,0 +1,31 @@
+h1:lang(gl) {
+    color: coral;
+    text-align: right;
+}
+
+#primerparrafo {
+    font-style: italic;
+    color: navy;
+}
+
+footer p:only-child {
+    color: darkgreen;
+}
+
+div p:first-line {
+    font-style: bold;
+    font-size: larger;
+}
+
+div p:first-of-type:first-line {
+    background-color: lightblue;
+    font-style: italic;
+}
+
+h2:before {
+    content: "3 refranes de ";
+}
+
+h2 {
+    user-select: none;
+}
